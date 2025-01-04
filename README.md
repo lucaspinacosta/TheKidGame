@@ -1,2 +1,2 @@
 # TheKidGame
-Self Developer game for my kid
+Self development game for my kid
