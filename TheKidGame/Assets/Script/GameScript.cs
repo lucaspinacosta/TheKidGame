@@ -179,8 +179,10 @@ public class GameScript : MonoBehaviour
                 go.GetComponent<Button>().interactable = true;
                 StartStopAnimator(GetActiveChild(go));
             }
+            matchedObjects.Clear();
         }
     }
+    
     GameObject GetActiveChild(GameObject parent)
     {
         // Iterate through all child transforms
